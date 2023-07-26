@@ -1,7 +1,7 @@
 package com.stick.bbs.utils;
 
 
-import com.stick.bbs.exception.ResultCode;
+import com.stick.bbs.exception.ResponseCode;
 import lombok.Data;
 
 /**
@@ -28,14 +28,14 @@ public class ApiResponse<T> {
     }
 
     public static <T> ApiResponse<T> error() {
-        return error(ResultCode.FAILED);
+        return error(ResponseCode.FAILED);
     }
 
     public static <T> ApiResponse<T> error(String msg) {
-        return error(ResultCode.FAILED.getCode(), msg);
+        return error(ResponseCode.FAILED.getCode(), msg);
     }
 
-    public static <T> ApiResponse<T> error(ResultCode resultCode) {
+    public static <T> ApiResponse<T> error(ResponseCode resultCode) {
         return error(resultCode.getCode(),resultCode.getMsg());
     }
 

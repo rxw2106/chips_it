@@ -3,7 +3,7 @@ package com.stick.bbs.exception;
 import lombok.Getter;
 
 @Getter
-public enum ResultCode {
+public enum ResponseCode {
     SUCCESS(200,"操作成功"),
     FAILED(500,"操作失败"),
     VALIDATE_FAILED(501,"参数校验失败"),
@@ -15,7 +15,7 @@ public enum ResultCode {
     private final Integer code;
     private final String msg;
 
-    ResultCode(Integer code, String msg) {
+    ResponseCode(Integer code, String msg) {
         this.code = code;
         this.msg = msg;
     }
