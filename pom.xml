@@ -22,10 +22,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!--版本控制-->
-        <spring-boot.version>3.0.0</spring-boot.version>
+        <spring-boot.version>3.0.2</spring-boot.version>
         <spring-cloud.version>2022.0.0</spring-cloud.version>
-        <spring-cloud-alibaba.version>2022.0.0.0-RC1</spring-cloud-alibaba.version>
-        <spring-cloud-starter-openfeign.version>4.0.0</spring-cloud-starter-openfeign.version>
+        <spring-cloud-alibaba.version>2022.0.0.0</spring-cloud-alibaba.version>
+        <spring-cloud-starter-openfeign.version>4.0.1</spring-cloud-starter-openfeign.version>
         <mysql-connector.version>8.0.33</mysql-connector.version>
         <lombok.version>1.18.26</lombok.version>
         <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
