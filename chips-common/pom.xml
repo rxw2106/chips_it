@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.stick.bbs</groupId>
-        <artifactId>STICK</artifactId>
+        <artifactId>chips_it</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>STICK-COMMON</artifactId>
-    <description>粘贴社区-公共服务</description>
+    <artifactId>chips-common</artifactId>
+    <description>薯条社区-公共服务</description>
     <version>1.0</version>
 
     <properties>
