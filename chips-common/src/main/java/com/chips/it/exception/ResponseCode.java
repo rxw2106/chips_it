@@ -1,4 +1,4 @@
-package com.stick.bbs.exception;
+package com.chips.it.exception;
 
 import lombok.Getter;
 

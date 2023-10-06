@@ -1,7 +1,7 @@
-package com.stick.bbs.utils;
+package com.chips.it.utils;
 
 
-import com.stick.bbs.exception.ResponseCode;
+import com.chips.it.exception.ResponseCode;
 import lombok.Data;
 
 /**
