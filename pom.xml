@@ -25,12 +25,12 @@
         <spring-cloud.version>2022.0.0</spring-cloud.version>
         <spring-cloud-alibaba.version>2022.0.0.0</spring-cloud-alibaba.version>
         <spring-cloud-starter-openfeign.version>4.0.1</spring-cloud-starter-openfeign.version>
+        <hikaricp.version>4.0.3</hikaricp.version>
         <mysql-connector.version>8.0.33</mysql-connector.version>
         <lombok.version>1.18.26</lombok.version>
         <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
         <hutool.version>5.8.16</hutool.version>
         <fastjson2.version>2.0.27</fastjson2.version>
-        <druid-spring-boot.version>1.2.17</druid-spring-boot.version>
         <mybatis-flex.version>1.7.0</mybatis-flex.version>
     </properties>
 

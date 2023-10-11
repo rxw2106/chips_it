@@ -1,0 +1,5 @@
+spring:
+  datasource:
+      url: jdbc:mysql://106.13.9.168:3314/chips_it?characterEncoding=utf-8
+      username: root
+      password: rena061498.
